@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <form action="" name="calc"  class="borda container">
+    <div id="calculadora"></div>
+        <input id="visor" style="text-align: right;" type="text" >
+        <div id="primeira">
+          <input class="botao borda numero" type="button" value="7" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="8" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="9" onclick="botao(value)">
+          <input class="botao borda operadores" type="button" value="/" onclick="botao(value)">
+        </div>
+
+        <div id="segunda">
+          <input class="botao borda numero" type="button" value="4" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="5" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="6" onclick="botao(value)">
+          <input class="botao borda operadores" type="button" value="*" onclick="botao(value)">
+        </div>
+
+        <div id="terceira">
+          <input class="botao borda numero" type="button" value="1" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="2" onclick="botao(value)">
+          <input class="botao borda numero" type="button" value="3" onclick="botao(value)">
+          <input class="botao borda operadores" type="button" value="-" onclick="botao(value)">
+        </div>
+
+        <div id="quarta">
+          <input class="botao borda c" type="button" value="C" onclick="reseta()">
+          <input class="botao borda numero" type="button" value="0" onclick="botao(value)">
+          <input class="botao borda operadores" type="button" value="=" onclick="calcula()">
+          <input class="botao borda operadores" type="button" value="+" onclick="botao(value)">
+        </div>
+  </form> 
+          
+        
+        
+         
+
+
+
+          
+
+         
+        
+
+         
+        
+           
+        
+</body>
+<script src="calculator.js"></script>
+</html>

@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 400px;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 60px;
+  text-align: center;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  border: 2px solid #000;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.borda {
+  margin: 16px 24px 27px 23px;
+  padding: 4px;
+}
+
+.botao {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: center;
+  background: tomato;
+  border: 1px solid black;
+}
+
+#visor {
+  width: 331px;
+  height: 60px;
+  margin: 30px;
+  font-size: 55px;
+  color: green;
+}
+
+.numero {
+  background: black;
+  color: white;
+}
+
+.operadores {
+  background: #cecece;
+}
+
+.c {
+  background: green;
+  color: white;
+}
